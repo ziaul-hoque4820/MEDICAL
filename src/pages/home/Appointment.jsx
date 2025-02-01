@@ -19,9 +19,13 @@ function Appointment() {
         register,
         handleSubmit,
         formState: { errors },
+        reset
       } = useForm({ resolver: yupResolver(schema),})
     
-      const onSubmit = (data) => console.log(data)
+      const onSubmit = (data) => {
+        console.log(data)
+        reset()
+      }
     return (
         <section className="">
             <div

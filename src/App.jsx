@@ -8,6 +8,7 @@ import Service from './pages/services/Service';
 import Doctors from './pages/doctors/Doctors';
 import News from './pages/news/News';
 import Contact from './pages/contact/Contact';
+import Appointment from "./pages/home/appointment"
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
               <Route path="/doctors" element={<Doctors />} />
               <Route path="/news" element={<News />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/appointment" element={<Appointment />} />
           </Routes>
 
         <Footer />

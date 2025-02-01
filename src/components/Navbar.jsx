@@ -72,7 +72,7 @@ const Navbar = () => {
                 {/* Appointment Link */}
                 <div className="hidden lg:block">
                     <Link
-                        href="/appointment"
+                        to="/appointment"
                         className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-700 font-workSans"
                     >
                         Appointment
