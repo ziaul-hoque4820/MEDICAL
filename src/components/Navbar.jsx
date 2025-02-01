@@ -71,12 +71,11 @@ const Navbar = () => {
 
                 {/* Appointment Link */}
                 <div className="hidden lg:block">
-                    <Link
-                        to="/appointment"
+                    <button
                         className="bg-blue-500 text-white px-6 py-2 rounded-lg hover:bg-blue-700 font-workSans"
                     >
                         Appointment
-                    </Link>
+                    </button>
                 </div>
             </div>
 
@@ -89,7 +88,7 @@ const Navbar = () => {
                     <Link to="/doctors" className="block py-2 text-gray-600 hover:bg-green-300 rounded-md dark:text-gray-300">Doctors</Link>
                     <Link to="/news" className="block py-2 text-gray-600 hover:bg-green-300 rounded-md dark:text-gray-300">News</Link>
                     <Link to="/contact" className="block py-2 text-gray-600 hover:bg-green-300 rounded-md dark:text-gray-300">Contact</Link>
-                    <Link to="/appointment" className="block py-2 mt-4 bg-blue-500 text-white text-center rounded-lg font-workSans">Appointment</Link>
+                    <button className="block py-2 mt-4 bg-blue-500 text-white text-center rounded-lg font-workSans">Appointment</button>
                 </div>
             )}
         </nav>
